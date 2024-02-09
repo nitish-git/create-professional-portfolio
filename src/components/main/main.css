@@ -1,0 +1,23 @@
+main {
+    padding: 0;
+}
+
+/* sm */
+@media (min-width: 640px) {}
+
+/* md */
+@media (min-width: 768px) {}
+
+/* lg */
+@media (min-width: 1024px) {
+    main {
+        padding: 7.35rem 0;
+    }
+
+}
+
+/* xl */
+@media (min-width: 1280px) {}
+
+/* xxl */
+@media (min-width: 1536px) {}

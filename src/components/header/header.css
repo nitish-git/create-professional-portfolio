@@ -1,0 +1,36 @@
+header {
+    height: 5rem;
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 2rem;
+    line-height: 2.93rem;
+    padding: 1rem 6.35%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 2rem;
+    font-weight: 500;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    color: var(--primary)
+}
+
+/* sm */
+@media (min-width: 640px) {}
+
+/* md */
+@media (min-width: 768px) {}
+
+/* lg */
+@media (min-width: 1024px) {}
+
+/* xl */
+@media (min-width: 1280px) {}
+
+/* xxl */
+@media (min-width: 1536px) {}
