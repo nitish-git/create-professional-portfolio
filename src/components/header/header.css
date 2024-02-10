@@ -34,3 +34,20 @@ nav ul li:hover {
 
 /* xxl */
 @media (min-width: 1536px) {}
+
+@media (prefers-color-scheme: light) {
+
+    header {
+        color: var(--dark);
+        background-color: var(--light);
+    }
+
+}
+
+@media (prefers-color-scheme: dark) {
+
+    header {
+        color: var(--light);
+        background-color: var(--dark);
+    }
+}

@@ -100,6 +100,7 @@ hr {
 }
 
 @media (prefers-color-scheme: light) {
+
   :root {
     color: var(--dark);
     background-color: var(--light);
@@ -108,8 +109,17 @@ hr {
 }
 
 @media (prefers-color-scheme: dark) {
+
   :root {
     color: var(--light);
     background-color: var(--dark);
+  }
+
+  a {
+    color: var(--dark);
+  }
+
+  a:hover {
+    color: var(--black);
   }
 }

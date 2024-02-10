@@ -54,7 +54,6 @@
 .vr {
     display: flex;
     align-items: center;
-
 }
 
 /* sm */
@@ -95,3 +94,25 @@
 
 /* xxl */
 @media (min-width: 1536px) {}
+
+@media (prefers-color-scheme: dark) {
+
+    .recent-posts {
+        color: var(--light);
+        background-color: var(--gray);
+    }
+
+    .post-card {
+        color: var(--light);
+        background-color: var(--dark);
+    }
+
+    .post-publish-info {
+        color: var(--light);
+    }
+
+    .vr-svg {
+        color: var(--light);
+    }
+
+}

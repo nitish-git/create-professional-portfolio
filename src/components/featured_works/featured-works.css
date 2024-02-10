@@ -113,3 +113,21 @@
 
 /* xxl */
 @media (min-width: 1536px) {}
+
+
+@media (prefers-color-scheme: dark) {
+
+    .featured-works-section {
+        color: var(--light);
+        background-color: var(--dark);
+    }
+
+    .featured-work-category:hover {
+        color: var(--light);
+    }
+
+    .featured-work-publish-year {
+        background-color: var(--secondary);
+        color: var(--dark);
+    }
+}

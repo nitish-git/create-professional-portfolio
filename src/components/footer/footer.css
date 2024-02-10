@@ -16,3 +16,16 @@
     display: flex;
     gap: 3rem;
 }
+
+@media (prefers-color-scheme: dark) {
+    .footer {
+        color: var(--light);
+    }
+
+    .social-links img {
+        /* color: var(--light); */
+
+
+        filter: invert(99%) sepia(0%) saturate(7497%) hue-rotate(227deg) brightness(103%) contrast(102%) opacity(0.8);
+    }
+}

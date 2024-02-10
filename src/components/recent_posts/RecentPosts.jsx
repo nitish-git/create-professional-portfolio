@@ -15,7 +15,7 @@ function RecentPosts() {
                         <div className='publish-date'>10 Feb 2024</div>
                         <div className='vr'>
                             <svg width="2" height="21" viewBox="0 0 2 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 0V21" stroke="black" />
+                                <path d="M1 0V21" stroke="currentColor" />
                             </svg>
                         </div>
                         <div className='post-category'>Design, Pattern</div>
@@ -27,8 +27,8 @@ function RecentPosts() {
                     <div className='post-publish-info'>
                         <div className='publish-date'>10 Feb 2024</div>
                         <div className='vr'>
-                            <svg width="2" height="21" viewBox="0 0 2 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 0V21" stroke="black" />
+                            <svg className='vr-svg' width="2" height="21" viewBox="0 0 2 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 0V21" stroke="currentColor" />
                             </svg>
                         </div>
                         <div className='post-category'>Figma, Icon Design</div>
