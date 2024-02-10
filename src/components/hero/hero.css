@@ -21,7 +21,7 @@
     font-weight: 500;
     font-size: 2rem;
     border-radius: 2px;
-    cursor: pointer;
+    cursor: default;
 }
 
 .primary-button:hover {

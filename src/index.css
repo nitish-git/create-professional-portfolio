@@ -55,6 +55,8 @@ a {
 
 a:hover {
   color: #535bf2;
+  cursor: default;
+  text-decoration: underline;
 }
 
 h1,
@@ -81,8 +83,21 @@ h3 {
   line-height: 3.8rem;
 }
 
+::-moz-selection {
+  color: var(--white);
+  background: var(--primary);
+}
 
+::selection {
+  color: var(--white);
+  background: var(--primary);
+}
 
+hr {
+  height: 0.1rem;
+  background-color: var(--light-gray);
+  border: none;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
