@@ -56,6 +56,11 @@
     align-items: center;
 }
 
+.vr svg {
+    width: 0.2rem;
+    height: 100%;
+}
+
 /* sm */
 @media (min-width: 640px) {}
 
@@ -100,6 +105,10 @@
     .recent-posts {
         color: var(--light);
         background-color: var(--gray);
+    }
+
+    .recent-posts-header .section-heading {
+        color: var(--dark);
     }
 
     .post-card {

@@ -3,6 +3,7 @@
     flex-direction: column-reverse;
     gap: 1rem;
     padding: 7.35rem;
+    padding-top: 3.8rem;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -13,33 +14,45 @@
     margin-bottom: 2rem;
 }
 
+.hero-figure {
+    width: 100%;
+    max-width: 70%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: -0.8rem 1.2rem 0px 0px var(--alice-blue)
+}
+
 .primary-button {
     display: inline-block;
     color: var(--white);
     background-color: var(--primary);
-    padding: 10px 20px;
+    padding: 1rem 2rem;
     font-weight: 500;
     font-size: 2rem;
-    border-radius: 2px;
+    border-radius: 0.2rem;
     cursor: default;
 }
 
 .primary-button:hover {
-    box-shadow: 0px 4px 10px 0px var(--secondary);
+    box-shadow: 0px 0.4rem 1rem 1rem var(--alice-blue);
+    transform: scale(1.01);
 }
 
 /* sm */
 @media (min-width: 640px) {}
 
 /* md */
-@media (min-width: 768px) {}
-
-/* lg */
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
     .hero {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        column-gap: 20rem;
+        column-gap: 10rem;
         padding: 7.35rem 12.7%;
         text-align: left;
     }
@@ -55,20 +68,15 @@
     }
 
     .hero-figure {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .hero-figure img {
+        max-width: 100%;
+        aspect-ratio: 1/1;
         border-radius: 50%;
-        object-fit: contain;
-        /* border-bottom: 1rem solid var(--alice-blue);
-        border-left: 0.5rem solid var(--alice-blue); */
+        overflow: hidden;
     }
-
-
 }
+
+/* lg */
+@media (min-width: 1024px) {}
 
 /* xl */
 @media (min-width: 1280px) {}
@@ -76,3 +84,13 @@
 
 /* xxl */
 @media (min-width: 1536px) {}
+
+@media (prefers-color-scheme: dark) {
+    .hero-figure {
+        box-shadow: -0.8rem 1.2rem 0px 0px var(--gray)
+    }
+
+    .primary-button:hover {
+        box-shadow: none;
+    }
+}

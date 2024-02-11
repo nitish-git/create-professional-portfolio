@@ -40,6 +40,8 @@
 .featured-work-publish-year {
     color: var(--white);
     background: var(--dark);
+    font-weight: 900;
+    font-size: 1.8rem;
     padding: 0rem 1rem;
     border-radius: 2rem;
     line-height: initial;

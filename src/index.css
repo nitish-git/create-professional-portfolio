@@ -99,6 +99,13 @@ hr {
   border: none;
 }
 
+
+@media (min-width: 1536px) {
+  html {
+    font-size: 0.8vw;
+  }
+}
+
 @media (prefers-color-scheme: light) {
 
   :root {

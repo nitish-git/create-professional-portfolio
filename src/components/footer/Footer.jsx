@@ -14,7 +14,7 @@ function Footer() {
                 <img src={TwitterIcon} alt='Twitter Icon' title='Twitter Profile Link' />
                 <img src={LinkedInIcon} alt='Linkedin Icon' title='LinkedIn Profile Link' />
             </div>
-            <p>Copyright ©2020 All rights reserved </p>
+            <p className='copyright-text'>Copyright ©2020 All rights reserved </p>
         </footer>
     )
 }
